@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ContinentContextProvider from './context/ContinentContext';
 import Continents from './components/continent/Continents';
 import DisplayContinents from './components/displaycontinent/DisplayContinents';
@@ -14,10 +14,11 @@ const App = () => {
     <div>
       <ApolloProvider client={client}>
         <ContinentContextProvider>
-          <Router basename={process.env.PUBLIC_URL}>
+          {/* basename={process.env.PUBLIC_URL} */}
+          <Router>
             <Routes>
               <Route path='/' element={<Continents />} />
-              <Route path='continent' element={<DisplayContinents />} />
+              <Route path='/continent' element={<DisplayContinents />} />
             </Routes>
           </Router>
         </ContinentContextProvider>

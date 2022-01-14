@@ -1,4 +1,4 @@
-import React, { FC, useState, useContext } from 'react';
+import React, { FC, useContext } from 'react';
 import { ContinentContext } from '../../context/ContinentContext';
 import style from './Continents.module.css';
 import { ContinentProps } from '../../types';
