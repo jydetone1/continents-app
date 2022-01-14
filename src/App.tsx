@@ -16,7 +16,7 @@ const App = () => {
         <ContinentContextProvider>
           <Router>
             <Routes>
-              <Route path='/continent-apps' element={<Continents />} />
+              <Route path='/continent-app' element={<Continents />} />
               <Route path='/continent' element={<DisplayContinents />} />
             </Routes>
           </Router>
