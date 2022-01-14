@@ -14,8 +14,7 @@ const App = () => {
     <div>
       <ApolloProvider client={client}>
         <ContinentContextProvider>
-          {/* basename={process.env.PUBLIC_URL} */}
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Routes>
               <Route path='/' element={<Continents />} />
               <Route path='/continent' element={<DisplayContinents />} />
