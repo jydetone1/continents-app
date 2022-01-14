@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/continents-app/static/css/main.93a5b021.css",
-    "main.js": "/continents-app/static/js/main.f1ae8a55.js",
+    "main.js": "/continents-app/static/js/main.301fc96f.js",
     "static/js/787.db9b214f.chunk.js": "/continents-app/static/js/787.db9b214f.chunk.js",
     "index.html": "/continents-app/index.html",
     "main.93a5b021.css.map": "/continents-app/static/css/main.93a5b021.css.map",
-    "main.f1ae8a55.js.map": "/continents-app/static/js/main.f1ae8a55.js.map",
+    "main.301fc96f.js.map": "/continents-app/static/js/main.301fc96f.js.map",
     "787.db9b214f.chunk.js.map": "/continents-app/static/js/787.db9b214f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93a5b021.css",
-    "static/js/main.f1ae8a55.js"
+    "static/js/main.301fc96f.js"
   ]
 }
