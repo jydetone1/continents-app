@@ -16,8 +16,11 @@ const App = () => {
         <ContinentContextProvider>
           <Router basename={process.env.PUBLIC_URL}>
             <Routes>
-              <Route path='/continents-app"' element={<Continents />} />
-              <Route path='/continent' element={<DisplayContinents />} />
+              <Route path='/continents-app' element={<Continents />} />
+              <Route
+                path='/continents-app/continent'
+                element={<DisplayContinents />}
+              />
             </Routes>
           </Router>
         </ContinentContextProvider>
