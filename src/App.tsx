@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import ContinentContextProvider from './context/ContinentContext';
 import Continents from './components/continent/Continents';
 import DisplayContinents from './components/displaycontinent/DisplayContinents';
@@ -16,7 +16,7 @@ const App = () => {
         <ContinentContextProvider>
           <Router basename={process.env.PUBLIC_URL}>
             <Routes>
-              <Route path='/' element={<Continents />} />
+              <Route path='/continents-app"' element={<Continents />} />
               <Route path='/continent' element={<DisplayContinents />} />
             </Routes>
           </Router>
