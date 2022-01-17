@@ -1,3 +1,4 @@
+import React, { memo } from 'react';
 import { data } from '../mock';
 import { MockProps } from '../types';
 
@@ -25,4 +26,4 @@ const MockToJson = () => {
   return <div></div>;
 };
 
-export default MockToJson;
+export default memo(MockToJson);
