@@ -23,7 +23,7 @@ const MockToJson = () => {
   }, {});
   console.log(tree);
 
-  return <div></div>;
+  return <div>{JSON.stringify(tree)}</div>;
 };
 
 export default memo(MockToJson);
